@@ -1,0 +1,110 @@
+name: rushikesh_s_application4
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  google_sign_in: ^5.0.7
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Kaushan Script
+      fonts: 
+        - asset: assets/fonts/KaushanScriptRegular.ttf
+          weight: 400
+    - family: Gugi
+      fonts: 
+        - asset: assets/fonts/GugiRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Aclonica
+      fonts: 
+        - asset: assets/fonts/AclonicaRegular.ttf
+          weight: 400
+    - family: Inder
+      fonts: 
+        - asset: assets/fonts/InderRegular.ttf
+          weight: 400
+    - family: Holtwood One SC
+      fonts: 
+        - asset: assets/fonts/HoltwoodOneSC.ttf
+          weight: 400
+    - family: Marko One
+      fonts: 
+        - asset: assets/fonts/MarkoOneRegular.ttf
+          weight: 400
+    - family: Moul
+      fonts: 
+        - asset: assets/fonts/MoulRegular.ttf
+          weight: 400
+    - family: Hind
+      fonts: 
+        - asset: assets/fonts/HindBold.ttf
+          weight: 700
+        - asset: assets/fonts/HindRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+    - family: Lalezar
+      fonts: 
+        - asset: assets/fonts/LalezarRegular.ttf
+          weight: 400
+    - family: Kurale
+      fonts: 
+        - asset: assets/fonts/KuraleRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Manrope
+      fonts: 
+        - asset: assets/fonts/ManropeSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ManropeBold.ttf
+          weight: 700
+    - family: HeadlandOne
+      fonts: 
+        - asset: assets/fonts/HeadlandOneRegular.ttf
+          weight: 400
+    - family: jsMath-cmbx10
+      fonts: 
+        - asset: assets/fonts/jsMathcmbx10.ttf
+          weight: 700
